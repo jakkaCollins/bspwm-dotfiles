@@ -1,0 +1,14 @@
+#! /bin/sh
+
+# autostart
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+picom --config ~/.config/picom/picom.conf &
+feh --bg-fill --randomize ~/Pictures/wm\ bg/*
+
+# bspc
+
+bspc config border_width         0
+bspc config window_gap           30
+bspc config split_ratio          0.6
+
