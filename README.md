@@ -12,3 +12,5 @@ editor: neovim <br/>
 file manager: cfiles <br/>
 background: feh <br/>
 colour theme: custom (inspired by abstract bold firefox theme) <br/>
+
+from my unixporn rice: https://www.reddit.com/r/unixporn/comments/qvhzng/bspwm_i_took_a_firefox_colour_theme_and_ran_with/
