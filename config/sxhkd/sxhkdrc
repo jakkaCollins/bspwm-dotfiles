@@ -4,7 +4,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi
+	rofi -show drun -theme ~/.config/rofi/rofi.rasi
 
 # firefox
 super + b
@@ -16,11 +16,10 @@ super + w
 
 # raise volume
 XF86AudioRaiseVolume
-	pactl set-sink-volume alsa_output.pci-0000_00_09.2.analog-stereo +5%
-
+	pactl set-sink-volume alsa_output.pci-0000_00_09.2.analog-stereo +5% && pactl set-sink-volume bluez_output.CC_98_8B_CD_5C_43.a2dp-sink +5%
 # lower volume
 XF86AudioLowerVolume
-	pactl set-sink-volume alsa_output.pci-0000_00_09.2.analog-stereo -5%
+	pactl set-sink-volume alsa_output.pci-0000_00_09.2.analog-stereo -5% && pactl set-sink-volume bluez_output.CC_98_8B_CD_5C_43.a2dp-sink -5%
 
 # raise brightness
 XF86MonBrightnessUp
