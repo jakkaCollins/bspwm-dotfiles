@@ -1,7 +1,7 @@
 # bspwm-dotfiles
 My dots for my bspwm rice
 
-This rice does not make use of a bar - even if I do ike to use bars. <br/>
+This rice does not make use of a bar - even if I do prefer to use bars. <br/>
 Please use your own bar or find one online if you plan to use a bar with this rice. <br/>
 
 wm: bspwm <br/>
