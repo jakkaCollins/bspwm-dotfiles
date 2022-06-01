@@ -1,7 +1,8 @@
 # bspwm-dotfiles
-my dots for my bspwm rice
+My dots for my bspwm rice
 
-i can't be bothered to configure polybar (though i would probably benefit from it).
+This rice does not make use of a bar - even if I do ike to use bars. <br/>
+Please use your own bar or find one online if you plan to use a bar with this rice. <br/>
 
 wm: bspwm <br/>
 shell: zsh <br/>
